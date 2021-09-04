@@ -122,7 +122,7 @@ export function Project() {
                     } )}</div>
                 </div>
                 <div>
-                    <button className="btnp"><a href={gitLink[i]} target="_blank" rel="noreferrer">Code</a></button>
+                    <button className="btnp"><a href={gitLink[i]} target="_blank">Code</a></button>
 
                 </div>
                 </div>
