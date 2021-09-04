@@ -20,7 +20,13 @@ width: 300px;
 }
 `
 export function ContactForm() {
-    const [data, setData] = useState({})
+    const initstate = {
+        name: "",
+        Email: "",
+        cpname: "",
+        message:"",
+    }
+    const [data, setData] = useState(initstate)
     const handlechane = (e) => {
        const {name, value} = e.target
     setData( { ...data, [name]: value} )
@@ -29,13 +35,15 @@ export function ContactForm() {
         console.log("hi")
         e.preventDefault();
         emailjs.sendForm('service_0ruqom6', 'template_eozjtuu', e.target, 'user_Pla7Jv5GmTexNGVEZ9OoQ')
-            .then(res=> {
-        console.log("done")
+            .then(res => {
+                alert("your resposne recorder sucessfully");
+               setData(initstate) 
             })
             .catch(err => {
-            console.log(err)
+                  alert("something went wrong")
             })
-        console.log("sjkdkj")
+         e.target.value = "";
+      
     }
     return <FormWrapper>
         <div >
@@ -44,13 +52,13 @@ export function ContactForm() {
             <div>
                 <form onSubmit={handleemail}>
                 <h2>Name</h2>
-                <input name="name" className="inputSection bbnone BottomBorder"placeholder="Name" onChange={handlechane} type="text" />
+                <input name="name" value={data.name} className="inputSection bbnone BottomBorder"placeholder="Name" onChange={handlechane} type="text" />
                 <h2>Email</h2>
-                <input name="Email"  className="inputSection bbnone BottomBorder" placeholder="Email" onChange={handlechane} type="Email" />
+                <input name="Email" value={data.Email}  className="inputSection bbnone BottomBorder" placeholder="Email" onChange={handlechane} type="Email" />
                 <h3>Company</h3>
-                <input name="cpname" className="inputSection bbnone BottomBorder" placeholder="Company Name" onChange={handlechane} type="text" />
+                <input name="cpname"  value={data.cpname} className="inputSection bbnone BottomBorder" placeholder="Company Name" onChange={handlechane} type="text" />
                 <h2>Message</h2>
-                <textarea name="message" className="inputSection bbnone BottomBorder textarea"  id="" cols="30" rows="10 " onChange={handlechane}></textarea>
+                <textarea name="message" value={data.message} className="inputSection bbnone BottomBorder textarea"  id="" cols="30" rows="10 " onChange={handlechane}></textarea>
                 <br></br><input className="inputSection1" type="submit"/>
                 
                 </form>

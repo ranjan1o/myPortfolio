@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import "./Style.css"
-import resume from "../Resume/resume.pdf"
 import profilepic from "../images/profilepic.jpg"
+import resume from "../Resume/resume.pdf"
 const A1 = styled.div`
 
 margin-top: 80px;
@@ -40,7 +40,7 @@ export function Header() {
         <h1 className="smt">Welcome To</h1>
 <h1 className="smt">My Personal Portfolio</h1>
                 <h1 className="colorp">Hi, I am Ranjan Giri</h1>
-                <div><button className="cvbtn"><a href={resume} download >Download My CV</a></button></div>
+                <div><button className="cvbtn"><a href={resume} download style={{color:"white"}} >Download My CV</a></button></div>
         </div>
         
             <div className="display" >
