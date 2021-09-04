@@ -49,8 +49,8 @@ export function Navbar() {
       </div>
       <div className="flex">
         <div className="">
-        <button className="bbnone"><a href="https://github.com/ranjan1o" target="_blank"><GitHubIcon className="iconheader"/></a></button>
-          <button className="bbnone"><a href="https://www.linkedin.com/in/ranjan-giri-0097521a7/" target="_blank"><LinkedInIcon className="iconheader"/></a></button>
+        <button className="bbnone"><a href="https://github.com/ranjan1o" target="_blank" rel="noreferrer"><GitHubIcon className="iconheader"/></a></button>
+          <button className="bbnone"><a href="https://www.linkedin.com/in/ranjan-giri-0097521a7/" target="_blank" rel="noreferrer"><LinkedInIcon className="iconheader"/></a></button>
           <button className="bbnone"><TwitterIcon className="iconheader"/></button>
         </div></div>
    
