@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import "./Style.css"
-import profilepic from "../images/profilepic.jpg"
+import profilepic from "../images/profilepic.jpeg"
 import resume from "../Resume/resume.pdf"
 import { init } from "ityped";
 import { useEffect, useRef } from "react";
