@@ -32,22 +32,22 @@ export function ContactForm() {
     setData( { ...data, [name]: value} )
     }
     const handleemail = (e) => {
-        console.log("hi")
+      
         e.preventDefault();
         emailjs.sendForm('service_0ruqom6', 'template_eozjtuu', e.target, 'user_Pla7Jv5GmTexNGVEZ9OoQ')
             .then(res => {
-                alert("your resposne recorder sucessfully");
+                alert("your resposne recorded sucessfully");
                setData(initstate) 
             })
             .catch(err => {
                   alert("something went wrong")
             })
-         e.target.value = "";
+        e.target.value = "";
       
     }
     return <FormWrapper>
         <div >
-            <h1>Contact Form</h1>
+            <h1 className="textStyling">Contact Form</h1>
             <hr className="line"></hr>
             <div>
                 <form onSubmit={handleemail}>
@@ -59,7 +59,7 @@ export function ContactForm() {
                 <input name="cpname"  value={data.cpname} className="inputSection bbnone BottomBorder" placeholder="Company Name" onChange={handlechane} type="text" />
                 <h2>Message</h2>
                 <textarea name="message" value={data.message} className="inputSection bbnone BottomBorder textarea"  id="" cols="30" rows="10 " onChange={handlechane}></textarea>
-                <br></br><input className="inputSection1" type="submit"/>
+                <br></br><input className="inputSection1"  type="submit"/>
                 
                 </form>
                 <p>Innovating one project at a time</p>

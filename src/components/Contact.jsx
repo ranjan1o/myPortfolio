@@ -13,7 +13,7 @@ width: 200px;
 export function Contact() {
     return <ContactWrapper>
         <div>
-            <h1>Contact Me</h1>
+            <h1 className="textStyling">Contact Me</h1>
             <hr className="line"/>
             <div className="Contact">
                 <div>

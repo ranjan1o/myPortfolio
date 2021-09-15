@@ -58,11 +58,11 @@ export function Header() {
     return <A1 >
         <div className="grid1">
         <div className="iou">
-        <h1 className="smt">Welcome To</h1>
-<h1 className="smt">My Personal Portfolio</h1>
-          <h1 className="colorp">Hi, I am Ranjan Giri</h1>
-          <h3><span ref={textRef} className="colorp"></span></h3>
-                <div><button className="cvbtn"><a href={resume} download style={{color:"white"}} >Download My CV</a></button></div>
+        <h1 className="smt textStyling">Welcome To</h1>
+<h1 className="smt textStyling">My Personal Portfolio</h1>
+          <h1 className="colorp textStyling">Hi, I am Ranjan Giri</h1>
+          <h3><span ref={textRef} className="colorp textStyling"></span></h3>
+                <div><button className="cvbtn textStyling"><a href={resume} download style={{color:"white"}} >Download My CV</a></button></div>
         </div>
         
             <div className="display" >

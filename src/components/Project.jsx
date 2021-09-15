@@ -96,7 +96,7 @@ const techstack = [[html5,css,js],[react,redux,js],[materialui,react,js]]
   const des = [" Lenskart is one of the e-commerce companies that operate in both online and offline distribution channels. Customers can order their products It deals in sunglasses,eyeglasses and contact lenses.,", "Impact Guru is a donation based crowdfunding platform that offers global crowdfunding solutions for NGOs, social enterprises. It was launched by Maneka Gandhi, Union Cabinet Minister for Women & Child Development", "Priceline.com is an online travel agency for finding discount rates for travel -related purchases such as airline tickets and hotel stays. The company facilitates the provision of travel services from its suppliers to its clients."]
 export function Project() {
     return <PWrapper>
-        <h1>Projects</h1>
+        <h1 className="textStyling">Projects</h1>
         <hr className="line"/>
         <div className="pcontaner">
         {ProjectName.map((e, i)=>{

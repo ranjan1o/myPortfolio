@@ -85,10 +85,14 @@
 .inputSection1 {
   width: 300px;
   height: 50px;
-  color: green;
+  color: white;
   background: -webkit-linear-gradient(
     top,
     rgb(131, 105, 212),
     rgb(44, 166, 200)
   );
+}
+.textStyling {
+  color: darkolivegreen;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }

@@ -39,13 +39,13 @@ font-size: x-large;
 export function Navbar() {
     return <A>
       <div className="flex">
-        <div className="colorp">Ranjan Giri</div>
+        <div className="colorp textStyling">Ranjan Giri</div>
       </div>
       <div className="navres">
-        <div className="flex bordernone"><button className="bbnone" onClick={() => window.scrollTo(0, 500)}>Project</button>
-          <button className="bbnone" onClick={() => window.scrollTo(0, 1200)}>Skill</button>
-          <button className="bbnone" onClick={() => window.scrollTo(0, 1600)}> About</button>
-        <button className="bbnone" onClick={() => window.scrollTo(0, 2000)}>Contact</button></div>
+        <div className="flex bordernone"><button className="bbnone textStyling" onClick={() => window.scrollTo(0, 500)}>Project</button>
+          <button className="bbnone textStyling" onClick={() => window.scrollTo(0, 1200)}>Skill</button>
+          <button className="bbnone textStyling" onClick={() => window.scrollTo(0, 1600)}> About</button>
+        <button className="bbnone textStyling" onClick={() => window.scrollTo(0, 2000)}>Contact</button></div>
       </div>
       <div className="flex">
         <div className="">

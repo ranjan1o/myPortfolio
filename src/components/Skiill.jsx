@@ -25,7 +25,7 @@ width: 300px;
 `
 export function Skills() {
     return <A>
-        <h1>Skills & Interests</h1>
+        <h1 className="textStyling">Skills & Interests</h1>
         <hr className="line"/>
     <div className="skillConatiner">
         <div className="box">

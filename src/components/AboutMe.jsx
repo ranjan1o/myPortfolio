@@ -15,7 +15,7 @@ width: 250px;
 export function About() {
     return <AboutWrapper>
         <div className="About">
-        <h1>About Me</h1>
+        <h1 className="textStyling">About Me</h1>
         <hr className="line"/>
          <p className="abouttext" >Recent Electronic & communication graduate with a passion of developing scalable web application and working across the full stack. I have designed the clone of some of the websites using React, Node.js and Mongodb. Curious to learn and apply my skills on a large scale.</p>      
          
