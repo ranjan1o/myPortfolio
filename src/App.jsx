@@ -1,0 +1,34 @@
+
+import './App.css';
+import { Navbar } from './components/Navbar';
+import { Header } from './components/header';
+import { Project } from './components/Project';
+import { Skills } from './components/Skiill';
+import { About } from './components/AboutMe';
+import { Contact } from './components/Contact';
+import { ScrollTo, ScrollArea } from "react-scroll-to";
+import { ContactForm } from './components/ContactForm';
+function App() {
+  return (
+    <div className="App">
+       <ScrollTo>
+                {
+                  (scroll) => (
+                      <ScrollArea>
+                     <Navbar></Navbar>
+      <Header />
+      <Project />
+      <Skills />
+      <About />
+      <Contact />
+      <ContactForm/>
+                      </ScrollArea>
+                  )
+                }
+            </ScrollTo>
+      
+    </div>
+  );
+}
+
+export default App;
