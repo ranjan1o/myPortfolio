@@ -31,22 +31,15 @@ export function Contact() {
             <h1 className="textStyling">Contact Me</h1>
             <hr className="line"/>
             <div >
-               <h1> Find Me On</h1>
+             
 <h3>Mail me at <span className="textc">ranjan0r890@gmail.com</span></h3>
 
                 <p>Phone <span className="textc">+91 6232059639</span></p>
-                <div style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
-                    <GitHubIcon className="cicon"></GitHubIcon>
-                    <LinkedInIcon className="cicon"/>
+                <div style={{display:"flex",justifyContent:"center",alignItems:"center",paddingBottom:"80px"}}>
+                 <button style={{background:"none",border:"none"}}><a href="https://github.com/ranjan1o" target="_blank" rel="noreferrer"><GitHubIcon className="cicon"></GitHubIcon></a></button>
+                  <button style={{background:"none",border:"none"}}> <a href="https://www.linkedin.com/in/ranjan-giri-0097521a7/" target="_blank" rel="noreferrer"> <LinkedInIcon className="cicon"/></a></button>
                 </div>
-                {/* <div>
-                    <h2>call</h2>
-                    <p>+91-6232059639</p>
-                </div>
-                <div>
-                    <h2>Email</h2>
-                    <p>ranjan0r890@gmail.com</p>
-                </div> */}
+             
             </div>
         </div>
         </ContactWrapper>

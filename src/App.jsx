@@ -22,8 +22,9 @@ function App() {
       <Project />
     
      
-      <Contact />
-      <ContactForm/>
+   
+                      <ContactForm />
+                         <Contact />
                       </ScrollArea>
                   )
                 }
