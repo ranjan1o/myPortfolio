@@ -16,10 +16,12 @@ function App() {
                   (scroll) => (
                       <ScrollArea>
                      <Navbar></Navbar>
-      <Header />
+                      <Header />
+                      <About />
+                        <Skills />
       <Project />
-      <Skills />
-      <About />
+    
+     
       <Contact />
       <ContactForm/>
                       </ScrollArea>

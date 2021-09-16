@@ -8,8 +8,8 @@ const A1 = styled.div`
 
 margin-top: 80px;
 .icon{
-width:200px ;
-height: 200px;
+width:250px ;
+height: 250px;
 border: 1px solid black;
 background-color: teal;
 border-radius: 50%;
@@ -62,7 +62,7 @@ export function Header() {
 <h1 className="smt textStyling">My Personal Portfolio</h1>
           <h1 className="colorp textStyling">Hi, I am Ranjan Giri</h1>
           <h3><span ref={textRef} className="colorp textStyling"></span></h3>
-                <div><button className="cvbtn textStyling"><a href={resume} download style={{color:"white"}} >Download My CV</a></button></div>
+                <div><button className="cvbtn textStyling"><a href={resume} target="_blank" >Resume</a></button></div>
         </div>
         
             <div className="display" >
