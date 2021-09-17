@@ -33,11 +33,14 @@ font-size: x-large;
 
 }
 .colorp{
+  width: 30px;
   color: #ff00ff;
   float: left;
+  padding-top: 0px;
   margin-left: 10px;
+  background-color:darkblue;
   font-size: xx-large;
- font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 @media screen and (max-width:600px) {
  .navres{
@@ -54,7 +57,7 @@ font-size: x-large;
 export function Navbar() {
     return <A>
       <div className="flex">
-        <div className="colorp textStyling">Ranjan Giri</div>
+        <div className="colorp">R/div>
       </div>
       <div className="navres">
         <div className="flex bordernone"><button className="bbnone textStyling" onClick={() => window.scrollTo(0, 1800)}> Project</button>
