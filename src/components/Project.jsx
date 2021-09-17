@@ -88,7 +88,7 @@ const gitLink=["https://github.com/Abhi15git/LensKart","https://github.com/Ransi
 const ProjectName = ["Lenscacrt", "impactguru", "priceline"]
 const images = [[lenscart1,lenscart2,lenscart3,lenscart4,lenscart5,lenscart6,lenscart7,lenscart8,lenscart9], [impact1, impact2, impact3, impact4], [pricelin1, pricelin2, pricelin3, pricelin4]]
 const techstack = [[html5, css, js], [react, redux, js], [materialui, react, js]]
-const pliveLink=["","https://impactguruclone.netlify.app/","https://priceline-clone.vercel.app"]
+const pliveLink=["https://focused-hugle-5e836d.netlify.app/","https://impactguruclone.netlify.app/","https://priceline-clone.vercel.app"]
   const des = [" Lenskart is one of the e-commerce companies that operate in both online and offline distribution channels. Customers can order their products It deals in sunglasses,eyeglasses and contact lenses.had stores in over 70 cities in India.,", "Impact Guru is a donation based crowdfunding platform that offers global crowdfunding solutions for NGOs, social enterprises. It was launched by Maneka Gandhi, Union Cabinet Minister for Women & Child Development", "Priceline.com is an online travel agency for finding discount rates for travel -related purchases such as airline tickets and hotel stays. The company facilitates the provision of travel services from its suppliers to its clients."]
 export function Project() {
     return <PWrapper>
