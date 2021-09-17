@@ -57,7 +57,7 @@ font-size: x-large;
 export function Navbar() {
     return <A>
       <div className="flex">
-        <div className="colorp">R/div>
+        <div className="colorp">R</div>
       </div>
       <div className="navres">
         <div className="flex bordernone"><button className="bbnone textStyling" onClick={() => window.scrollTo(0, 1800)}> Project</button>
