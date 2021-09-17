@@ -85,7 +85,7 @@ const responsive = {
   }
 };
 const gitLink=["https://github.com/Abhi15git/LensKart","https://github.com/Ransingh88/project-impact_guru","https://github.com/devSudhir/Priceline-Clone"]
-const ProjectName = ["Lenscacrt", "impactguru", "priceline"]
+const ProjectName = ["Lenskart", "impactguru", "priceline"]
 const images = [[lenscart1,lenscart2,lenscart3,lenscart4,lenscart5,lenscart6,lenscart7,lenscart8,lenscart9], [impact1, impact2, impact3, impact4], [pricelin1, pricelin2, pricelin3, pricelin4]]
 const techstack = [[html5, css, js], [react, redux, js], [materialui, react, js]]
 const pliveLink=["https://focused-hugle-5e836d.netlify.app/","https://impactguruclone.netlify.app/","https://priceline-clone.vercel.app"]
